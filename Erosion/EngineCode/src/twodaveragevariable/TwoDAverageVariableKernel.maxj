@@ -1,0 +1,98 @@
+/**
+ * Document: MaxCompiler Tutorial (maxcompiler-tutorial.pdf)
+ * Chapter: 8      Example: 3      Name: Two-dimensional average variable
+ * MaxFile name: TwoDAverageVariable
+ * Summary:
+ *      Kernel that averages within an 8-point window.
+ */
+
+package twodaveragevariable;
+
+import com.maxeler.maxcompiler.v2.kernelcompiler.Kernel;
+import com.maxeler.maxcompiler.v2.kernelcompiler.KernelParameters;
+import com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Stream.OffsetExpr;
+import com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.CounterChain;
+import com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar;
+
+class TwoDAverageVariableKernel extends Kernel {
+    
+    //EROSION
+
+	public TwoDAverageVariableKernel(KernelParameters parameters, int nxMax, int nx, int ny) {
+		super(parameters);
+
+		// Input: original image
+		
+		DFEVar inStream = io.input("inStream", dfeUInt(32));
+		
+		
+		//Scalar input: erosion mask
+		
+		DFEVar mask[] = new DFEVar[9];
+		
+	    mask[0] = io.scalarInput("mask0", dfeUInt(32));
+        mask[1] = io.scalarInput("mask1", dfeUInt(32));
+        mask[2] = io.scalarInput("mask2", dfeUInt(32));
+        mask[3] = io.scalarInput("mask3", dfeUInt(32));
+        mask[4] = io.scalarInput("mask4", dfeUInt(32));
+        mask[5] = io.scalarInput("mask5", dfeUInt(32));
+        mask[6] = io.scalarInput("mask6", dfeUInt(32));
+        mask[7] = io.scalarInput("mask7", dfeUInt(32));
+        mask[8] = io.scalarInput("mask8", dfeUInt(32));
+        
+        
+		OffsetExpr nxoffset = stream.makeOffsetParam("nxoffset", 3, nxMax);
+		
+		
+		//counter chain and flags to keep track of when we're at the image edges
+		
+		CounterChain chain = control.count.makeCounterChain();
+		DFEVar ycounter = chain.addCounter(ny, 1);
+		DFEVar xcounter = chain.addCounter(nx, 1);
+		
+		DFEVar belowUpperBound = ycounter > 0;
+		DFEVar aboveLowerBound = ycounter < ny-1;
+		DFEVar rightOfLeftBound = xcounter > 0;
+		DFEVar leftOfRightBound = xcounter < nx - 1;
+
+
+		// Extract 8 point window around current point
+		
+		DFEVar window[] = new DFEVar[9];
+		int i = 0;
+		for (int y=-1; y<=1; y++)
+		    for (int x=-1; x<=1; x++)
+				window[i++] = stream.offset(inStream, y*nxoffset+x);
+
+        
+        //multiplying the mask values with the window values
+        //values outside of the image are considered as 0
+	    
+	    DFEVar values[] = new DFEVar[9];
+		
+        values[0] = belowUpperBound & rightOfLeftBound ? window[0]  : constant.var(dfeUInt(32), 0);
+		values[1] = belowUpperBound ? window[1] : constant.var(dfeUInt(32), 0);
+		values[2] = belowUpperBound & leftOfRightBound ? window[2] : constant.var(dfeUInt(32), 0);
+		values[3] = rightOfLeftBound ? window[3] : constant.var(dfeUInt(32), 0);
+		values[4] = window[4];
+		values[5] = leftOfRightBound ? window[5] : constant.var(dfeUInt(32), 0);
+		values[6] = aboveLowerBound & rightOfLeftBound ? window[6] : constant.var(dfeUInt(32), 0);
+		values[7] = aboveLowerBound ? window[7] : constant.var(dfeUInt(32), 0);
+		values[8] = aboveLowerBound & leftOfRightBound ? window[8] : constant.var(dfeUInt(32), 0);
+        
+        
+        //finding the maximum value
+        
+        DFEVar min = constant.var(dfeUInt(32), 255);
+        for (int j = 0; j < 9; j++) {
+			min = (mask[j] === constant.var(dfeUInt(32), 1)) & (values[j] < min) ? values[j] : min;
+		}
+        
+        
+
+		//Output
+		
+		io.output("outStream", min, dfeUInt(32));
+	}
+
+}

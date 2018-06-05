@@ -1,0 +1,19 @@
+*** After kernel graph-pass 'Init Graph' ***
+node ">" (ID 18) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.gt(DFEVar.java:799)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:65)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "<" (ID 20) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.lt(DFEVar.java:845)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:66)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node ">" (ID 22) has unconnected outputs: [result]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar.gt(DFEVar.java:799)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:67)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	

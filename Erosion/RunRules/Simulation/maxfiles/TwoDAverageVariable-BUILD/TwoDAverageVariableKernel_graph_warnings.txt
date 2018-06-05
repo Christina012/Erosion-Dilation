@@ -1,0 +1,341 @@
+*** After kernel graph-pass 'Init Graph' ***
+node "Scalar input (mask0)" (ID 3) has unconnected outputs: [mask0]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:33)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask1)" (ID 4) has unconnected outputs: [mask1]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:34)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask2)" (ID 5) has unconnected outputs: [mask2]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:35)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask3)" (ID 6) has unconnected outputs: [mask3]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:36)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask4)" (ID 7) has unconnected outputs: [mask4]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:37)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask5)" (ID 8) has unconnected outputs: [mask5]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:38)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask6)" (ID 9) has unconnected outputs: [mask6]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:39)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask7)" (ID 10) has unconnected outputs: [mask7]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:40)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask8)" (ID 11) has unconnected outputs: [mask8]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:41)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 56) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 61) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 66) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 71) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 76) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 81) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 86) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 91) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "{HWOffsetFix:32, 0, UNSIGNED}\n0x00000001; 1.0" (ID 96) has unconnected outputs: [value]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.Constant.var(Constant.java:96)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:98)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+*** After kernel graph-pass 'Init Graph' ***
+node "Scalar input (mask0)" (ID 3) has unconnected outputs: [mask0]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:33)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask1)" (ID 4) has unconnected outputs: [mask1]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:34)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask2)" (ID 5) has unconnected outputs: [mask2]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:35)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask3)" (ID 6) has unconnected outputs: [mask3]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:36)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask4)" (ID 7) has unconnected outputs: [mask4]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:37)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask5)" (ID 8) has unconnected outputs: [mask5]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:38)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask6)" (ID 9) has unconnected outputs: [mask6]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:39)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask7)" (ID 10) has unconnected outputs: [mask7]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:40)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask8)" (ID 11) has unconnected outputs: [mask8]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:41)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+*** After kernel graph-pass 'FoldConstantsPass' ***
+node "Scalar input (mask0)" (ID 3) has unconnected outputs: [mask0]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:33)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask1)" (ID 4) has unconnected outputs: [mask1]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:34)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask2)" (ID 5) has unconnected outputs: [mask2]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:35)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask3)" (ID 6) has unconnected outputs: [mask3]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:36)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask4)" (ID 7) has unconnected outputs: [mask4]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:37)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask5)" (ID 8) has unconnected outputs: [mask5]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:38)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask6)" (ID 9) has unconnected outputs: [mask6]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:39)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask7)" (ID 10) has unconnected outputs: [mask7]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:40)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask8)" (ID 11) has unconnected outputs: [mask8]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:41)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+*** After kernel graph-pass 'OptimiseNodesPass' ***
+node "Input(inStream)" (ID 2) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:26)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask0)" (ID 3) has unconnected outputs: [mask0]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:33)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask1)" (ID 4) has unconnected outputs: [mask1]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:34)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask2)" (ID 5) has unconnected outputs: [mask2]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:35)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask3)" (ID 6) has unconnected outputs: [mask3]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:36)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask4)" (ID 7) has unconnected outputs: [mask4]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:37)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask5)" (ID 8) has unconnected outputs: [mask5]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:38)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask6)" (ID 9) has unconnected outputs: [mask6]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:39)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask7)" (ID 10) has unconnected outputs: [mask7]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:40)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask8)" (ID 11) has unconnected outputs: [mask8]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:41)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+*** After kernel graph-pass 'RemoveUntypedConstants' ***
+node "Input(inStream)" (ID 2) has unconnected outputs: [data]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.input(IO.java:606)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:26)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask0)" (ID 3) has unconnected outputs: [mask0]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:33)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask1)" (ID 4) has unconnected outputs: [mask1]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:34)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask2)" (ID 5) has unconnected outputs: [mask2]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:35)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask3)" (ID 6) has unconnected outputs: [mask3]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:36)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask4)" (ID 7) has unconnected outputs: [mask4]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:37)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask5)" (ID 8) has unconnected outputs: [mask5]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:38)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask6)" (ID 9) has unconnected outputs: [mask6]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:39)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask7)" (ID 10) has unconnected outputs: [mask7]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:40)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
+node "Scalar input (mask8)" (ID 11) has unconnected outputs: [mask8]
+stack trace of node origin follows:
+	com.maxeler.maxcompiler.v2.kernelcompiler.stdlib.core.IO.scalarInput(IO.java:1106)
+	twodaveragevariable.TwoDAverageVariableKernel.<init>(TwoDAverageVariableKernel.maxj:41)
+	twodaveragevariable.TwoDAverageVariableManager.main(TwoDAverageVariableManager.maxj:23)
+	
